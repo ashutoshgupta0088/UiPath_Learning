@@ -1,0 +1,223 @@
+﻿1. Get Current Date in string format :-     Datetime.Now.ToString()
+(Output - string type - “dd/MM/yyyy hh:mm:ss”)
+
+**To get only current datetime as a variable **
+
+Datetime.Now
+
+(Output - Datetime variable)
+
+2. Get different formats of datetime as string type
+Get current day alone - numerical terms
+
+Datetime.Now.ToString(“dd”)
+
+** Get current day - full text**
+
+Datetime.Now.ToString(“dddd”)
+
+Get Current month - full name
+
+Datetime.Now.ToString(“MMMM”)
+
+Get current month - first three characters
+
+Datetime.Now.ToString(“MMM”)
+
+Get current month - numerical value
+
+Datetime.Now.ToString(“MM”)
+
+Get current year - full year
+
+Datetime.Now.ToString(“yyyy”)
+
+Get current year - last two characters
+
+Datetime.Now.ToString(“yy”)
+
+Get current time - in 12 hrs format
+
+Datetime.Now.ToString(“hh:mm:ss”)
+
+get current time - in 24 hours format
+
+Datetime.Now.ToString(“HH:mm:ss”)
+
+Get current hour alone - 12 hrs format
+
+Datetime.Now.ToString(“hh”)
+
+Get current hours alone - 24 hours format
+
+Datetime.Now.ToString(“HH”)
+
+Get Current minutes
+
+Datetime.Now.ToString(“mm”)
+
+Get current seconds
+
+Datetime.Now.ToString(“ss”)
+
+3. Get current Datetime as string with TIMEZONE
+Datetime.Now.ToString(“dd/MM/yyyy hh:mm:ss K”)
+
+4. Get current Datetime with AM / PM
+Datetime.Now.ToString(“dd/MM/yyyy hh:mm:ss tt”)
+
+5. Convert a string to Datetime
+If input is Strinput = “12/02/2022”
+
+with Convert.ToDatetime method
+
+var_datetime = Convert.ToDatetime(Strinput.ToString)
+
+with Datetime.Parse method
+
+var_datetime = Datetime.Parse(Strinput.ToString)
+
+with Datetime.ParseExact method
+
+var_datetime = Datetime.ParseExact(Strinput.ToString, “dd/MM/yyyy”, System.Globalization.CultureInfo.InvariantCulture)
+
+In the above last expression dd/MM/yyyy depends on what format the Strinput variable holds
+It has to be same as that
+So based on what format we find in string input variable mention the same format instead of “dd/MM/yyyy” in last expression
+
+Note : if you want tour above expression as string output type then include .ToString atlast of the expression
+
+Suppose If the input is of full format
+
+Strinput = “23/11/2022 02:20:31 +5:30”
+
+Then to get this as Datetime
+
+var_datetime = Datetime.ParseExact(Strinput.ToString, “dd/MM/yyyy hh:mm:ss K”)
+
+6. Validate whether a Datetime is valid date
+type or not
+
+bool_date = DateTime.TryParseExact(strinput.ToString,“MM/dd/yyyy hh:mm:ss”, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, Nothing)
+
+This gives Boolean as output type and validate whether the string input matches with the format mention within double quotes (“MM/dd/yyyy hh:mm:ss”)
+
+7. Convert a String of multiple possible date formats to a Datetime variable
+Say you have a date string which can be of different formats for each time it is being used like
+“dd/MM/yyyy”, “MM/dd/yyyy”, “dd/yy”
+
+Then have all these possible formats in a array variable named arr_formats
+
+Like this
+
+arr_formats = {“dd/MM/yyyy”, “MM/dd/yyyy”, “dd/yy”}
+
+Then to convert that string as Datetime
+
+var_datetime = DateTime.ParseExact(Strinput.ToString, arr_formats, System.Globalization.CultureInfo.InvariantCulture, DateTimeStyles.None)
+
+8. Convert a string to Datetime of specific culture info
+Say Strinput = “12-22-2022”
+
+To get it as German time and details
+
+str_datetime = Datetime.ParseExact(Strinput.ToString, “MM-dd-yyyy”, System.Globalization.CultureInfo.InvariantCulture).ToString(“dd/MM/yyyy”, New CultureInfo(“de-DE”))
+
+We can mention any time zone info along CultureInfo arguments like above
+
+10. Difference in days between two dates
+If Strinput = “12-Jan-2022”
+
+int_days = DateDiff(DateInterval.Day, DateTime.ParseExact(Strinput.ToString, "dd-MMM-yyyy", System.Globalization.CultureInfo.InvariantCulture),DateTime.now())
+
+11. Difference in months between two dates
+If Strinput = “12-Jan-2022”
+
+int_months = DateDiff(DateInterval.Month, DateTime.ParseExact(Strinput.ToString, "dd-MMM-yyyy", System.Globalization.CultureInfo.InvariantCulture),DateTime.now())
+
+Same for years replace Month as Year in above expression
+Like this
+
+If Strinput = “12-Jan-2022”
+
+int_years = DateDiff(DateInterval.Year, DateTime.ParseExact(Strinput.ToString, "dd-MMM-yyyy", System.Globalization.CultureInfo.InvariantCulture),DateTime.now())
+
+12. Get first date of the current month
+str_firstdate = New DateTime(DateTime.Now.Year, DateTime.Now.Month, 1).ToString
+
+13. Get Last date of the current month
+str_lastedate = New DateTime(now.Year, now.Month, DateTime.DaysInMonth(now.Year, now.Month)).ToString
+
+14. Get last date of previous month
+str_lastdate = New DateTime(now.Year,now.Month,1).AddDays(-1).ToString
+
+15. Get first date of the year
+str_firstdate = New DateTime(now.Year,1,1).ToString
+
+16. Get last date of the year
+Str_lastdate = New DateTime(now.Year,12,31).ToString
+
+
+20. Add hours to current time
+str_datetime = Datetime.Now.AddHours(1).ToString()
+
+add 5 Days
+
+str_datetime = Datetime.Now.AddDays(5).ToString()
+
+add 10 years to current date
+
+str_datetime = Datetime.Now.AddYears(10).ToString()
+
+Same for months as well
+
+21. Minus days from current day
+str_datetime = Datetime.Now.AddDays(-1).ToString()
+
+Subtract 5 months from current month
+
+str_datetime = Datetime.Now.AddMonths(-5).ToString()
+
+Subtract 10 years from current year
+
+str_datetime = Datetime.Now.AddYears(-10).ToString()
+
+22. Convert a OADate in excel to a Datetime or string Datetime
+Suppose Actual value being entered: ‘43800’ but the required value is “1-Dev-2022” in format “dd-MMM-yyyy”
+
+Then use this in assign activity
+
+str_datetime = DateTime.FromOADate(Convert.ToDouble(Strinput.ToString)).ToString(“dd-MMM-yyyy”)
+
+23. Difference string formats from a Datetime
+While converting a Datetime to string apart from user defined string formats there are other string formats obtained from these below methods instead of ToString in Datetime.ParseExact(……).ToString()
+
+.ToOADate()
+.ToLongDateString()
+.ToShortDateString()
+.ToLongTimeString()
+.ToShortTimeString()
+.ToString()
+.ToUniversalTime()
+.ToFileTime()
+.ToLocalTime()
+
+24. Create a TimeSpan variable with default value initialised in variable panel
+TimeSpan var_interval = new TimeSpan(2, 14, 18)
+
+The default value attributed to a TimeSpan variable uses the day.hh:mm:ss format.
+
+25. Convert a string to TimeSpan
+If Strinput = “12:20:45”
+
+var_timespan = TimeSpan.Parse(Strinput.ToString)
+
+26. Convert different time values to TimeSpan
+If we have time values in milliseconds, hours, days, and in order to convert that to TimeSpan
+
+var_TimeSpan = TimeSpan.FromMilliseconds(1000)
+var_TimeSpan = TimeSpan.FromDays(1)
+var_TimeSpan = TimeSpan.FromHours(2)
+var_TimeSpan = TimeSpan.FromMinutes(30)
+var_TimeSpan = TimeSpan.FromSeconds(20)
+var_TimeSpan = TimeSpan.FromTicks(10000)

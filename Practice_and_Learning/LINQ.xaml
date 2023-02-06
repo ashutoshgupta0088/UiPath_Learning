@@ -1,0 +1,1045 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="952.8,1015.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="33">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Data.Entity</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart sap:VirtualizedContainerService.HintSize="963.2,950.4" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">0,2.4</av:Point>
+        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">60,40 340,40 340,342.4</av:PointCollection>
+        <x:Double x:Key="Width">930</x:Double>
+        <x:Double x:Key="Height">913.59999999999991</x:Double>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">0,114.4</av:Point>
+          <av:Size x:Key="ShapeSize">200,191.2</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="The joining operators joins the two collections and produce a result.&#xA;&#xA;=&gt; Join&#xA;=&gt; GroupJoin" DisplayName="LINQ Joining Operator" sap:VirtualizedContainerService.HintSize="200,191.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="sd:DataTable" Name="DT_1" />
+          <Variable x:TypeArguments="sd:DataTable" Name="DT_2" />
+          <Variable x:TypeArguments="sd:DataTable" Name="Join_Out_DT" />
+          <Variable x:TypeArguments="x:String" Name="Join_output_str" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap2010:Annotation.AnnotationText="The Join operator joins two collections based on a key and returns a resulting sequence." DisplayName="JOIN" sap:VirtualizedContainerService.HintSize="400,127.2" sap2010:WorkflowViewState.IdRef="Sequence_64">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[DT_1]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="433.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="DT_1" WorkbookPath="Join_function.xlsx" />
+          <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[DT_2]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="433.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="DT_2" WorkbookPath="Join_function.xlsx" />
+          <ui:BuildDataTable DataTable="[Join_Out_DT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="433.6,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;CITY_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CITY_NAME&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;ZIP&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_6">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[Join_Out_DT]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable" xml:space="preserve">[(
+From a In DT_1
+Join b In DT_2
+On a("City_id").toString Equals b("City_id").tostring
+Select Join_Out_DT.Rows.Add ({a("City_id"), a("City_name"),b("ZIP")})
+).copytodatatable]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:OutputDataTable DataTable="[Join_Out_DT]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="433.6,80.8" sap2010:WorkflowViewState.IdRef="OutputDataTable_3" Text="[Join_output_str]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Info" Message="[Join_output_str]" />
+          <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[Join_Out_DT]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="433.6,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Join_output" WorkbookPath="Join_function.xlsx" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">240,634.8</av:Point>
+          <av:Size x:Key="ShapeSize">200,270.4</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="LINQ Set Operators are extremely helpful while performing operations like removing duplicates, combining to collections/lists and in extracting common and uncommon values.&#xA;=&gt; DISTINCT&#xA;=&gt; UNION&#xA;=&gt; INTERSECT&#xA;=&gt; EXCEPT" DisplayName="LINQ Set Operators" sap:VirtualizedContainerService.HintSize="200,270.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:Int32[]" Name="ArrayOf_Int1" />
+          <Variable x:TypeArguments="s:Int32[]" Name="ArrayOf_Int2" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap2010:Annotation.AnnotationText="Creating array of integers " DisplayName="Array Of Integer 1" sap:VirtualizedContainerService.HintSize="496,357.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_38">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:Int32[]">[ArrayOf_Int1]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:Int32[]">[{4,7,2,1,9,6,7,5,4,3,2,8,5}]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Array Of Integer_1: &quot;+ String.Join(&quot;,&quot;,ArrayOf_Int1)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Creating another array of integers " DisplayName="Array Of Integer 2" sap:VirtualizedContainerService.HintSize="496,114.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_39">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:Int32[]">[ArrayOf_Int2]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:Int32[]">[{3,5,4,3,1,8,8,4,6,12,11}]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Array Of Integer_2: &quot;+String.Join(&quot;,&quot;,ArrayOf_Int2)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Returns distinct values from a collection." DisplayName="Distinct" sap:VirtualizedContainerService.HintSize="496,114.4" sap2010:WorkflowViewState.IdRef="Sequence_39">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Distinct_Output_1" />
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Distinct_Output_2" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_40">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Distinct_Output_1]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOf_Int1.Distinct]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;Distinct Array 1: &quot;+String.Join(&quot;,&quot;,Distinct_Output_1)]" />
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_41">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Distinct_Output_2]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOf_Int2.Distinct]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;Distinct Array 2: &quot;+String.Join(&quot;,&quot;,Distinct_Output_2)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Returns unique elements from two sequences, which means unique elements that appear in either of the two sequences." DisplayName="Union" sap:VirtualizedContainerService.HintSize="400,127.2" sap2010:WorkflowViewState.IdRef="Sequence_19">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Union_Output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_20">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Union_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOf_Int1.Union(ArrayOf_Int2)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;UNION of array 1 and array 2: &quot;+vbNewLine+String.Join(&quot;,&quot;,Union_Output)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Returns the intersection of two sequences, which means elements that appear in both collections." DisplayName="Intersection" sap:VirtualizedContainerService.HintSize="400,127.2" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Intersection_output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_43">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Intersection_output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOf_Int1.Intersect(ArrayOf_Int2)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;Intersection Output: &quot;+vbNewLine+String.Join(&quot;,&quot;,Intersection_output)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Returns the difference between two sequences, which means the elements of one collection that do not appear in the second collection." DisplayName="Except" sap:VirtualizedContainerService.HintSize="400,143.2" sap2010:WorkflowViewState.IdRef="Sequence_21">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Except_Output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_44">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Except_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOf_Int1.Except(ArrayOf_Int2)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Except Output: &quot;+vbNewLine+String.Join(&quot;,&quot;,Except_Output)]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">730,10.4</av:Point>
+          <av:Size x:Key="ShapeSize">200,318.4</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="LINQ, Element Operators are helpful to find the first or the last element of a list/collection and can also be used to fetch an element based on its index value.&#xA;=&gt; First&#xA;=&gt; FirstOrDefault&#xA;=&gt; Last&#xA;=&gt; LastOrDefault&#xA;=&gt; ElementAt&#xA;=&gt; ElementAtOrDefault&#xA;=&gt; Single&#xA;=&gt; SingleOrDefault" DisplayName="LINQ Element Operators" sap:VirtualizedContainerService.HintSize="200,318.4" sap2010:WorkflowViewState.IdRef="Sequence_22">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:Int32[]" Name="ArrOfInteger" />
+          <Variable x:TypeArguments="x:String" Name="StrOut" />
+          <Variable x:TypeArguments="x:Int32" Name="SingleOutput" />
+          <Variable x:TypeArguments="x:Int32" Name="SingleOrDefault_Output" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_24">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:Int32[]">[ArrOfInteger]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:Int32[]">[{8,5,9,3,6,7,5,4,7,1,2,4}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="First Operator can be used to fetch the first element from a list/collection.&#xA;&#xA;ArrOfInteger.First.ToString" DisplayName="First" sap:VirtualizedContainerService.HintSize="433.6,144.8" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Info" Message="[&quot;First of Array: &quot;+ArrOfInteger.First.ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="FirstOrdefault Operator can be used to fetch the first element from a list/collection and in case if there are no values in that list/collection it will return a default value.&#xA;&#xA;ArrOfInteger.FirstOrDefault.ToString" DisplayName="FirstOrDefault" sap:VirtualizedContainerService.HintSize="433.6,208.8" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[&quot;FirstOrDefault of Array: &quot;+ArrOfInteger.FirstOrDefault.ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="Last Operator can be used to fetch the last element from a list/collection.&#xA;&#xA;ArrOfInteger.Last.ToString" DisplayName="Last" sap:VirtualizedContainerService.HintSize="433.6,144.8" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Info" Message="[&quot;Last of array: &quot;+ArrOfInteger.Last.ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="LastOrdefault Operator can be used to fetch the last element from a list/collection and in case if there are no values in that list/collection it will return a default value.&#xA;&#xA;ArrOfInteger.LastOrDefault.ToString" DisplayName="LastOrDefault" sap:VirtualizedContainerService.HintSize="433.6,208.8" sap2010:WorkflowViewState.IdRef="LogMessage_35" Level="Info" Message="[&quot;LastOrDefault of Array: &quot;+ArrOfInteger.LastOrDefault.ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="ElementAt Operator can be used to fetch an element from a list/collection based on the specified index.&#xA;&#xA;ArrOfInteger.ElementAt(1).ToString" DisplayName="ElementAt" sap:VirtualizedContainerService.HintSize="433.6,176.8" sap2010:WorkflowViewState.IdRef="LogMessage_36" Level="Info" Message="[&quot;ElementAt: &quot;+ArrOfInteger.ElementAt(1).ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="ElementAtOrdefault Operator can be used to fetch an element from a list/collection based on the specified index.and in case if that index is not valid, it will return a default value.&#xA;&#xA;ArrOfInteger.ElementAtOrdefault(1).ToString" DisplayName="ElementAtOrDefault" sap:VirtualizedContainerService.HintSize="433.6,224.8" sap2010:WorkflowViewState.IdRef="LogMessage_37" Level="Info" Message="[&quot;ElementAtOrDefault: &quot;+&#xA;ArrOfInteger.ElementAtOrdefault(1).ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <Sequence sap2010:Annotation.AnnotationText="Single Operator can be used to fetch a single element from a list/collection that actually satisfies a given condition&#xA;&#xA;If the collection has got more than one element in it or no elements in it, then it will throw an exception.&#xA;&#xA;ArrOfInteger.Where(function(x) x.Equals(8)).Single()" DisplayName="Single" sap:VirtualizedContainerService.HintSize="433.6,207.2" sap2010:WorkflowViewState.IdRef="Sequence_60">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_59">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[SingleOutput]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[ArrOfInteger.Where(function(x) x.Equals(8)).Single()]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Single" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info" Message="[&quot;Single: &quot;+SingleOutput.ToString]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="SingleOrDefault Operator can be used to fetch a single element from a list/collection that actually satisfies a given condition&#xA;&#xA;If the collection has got more than one element in it or no elements in it, then it will return a default value.&#xA;&#xA;ArrOfInteger.Where(function(x) x&gt;10).SingleOrDefault()" DisplayName="SingleOrDefault" sap:VirtualizedContainerService.HintSize="433.6,207.2" sap2010:WorkflowViewState.IdRef="Sequence_61">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_60">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[SingleOrDefault_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[ArrOfInteger.Where(function(x) x&gt;10).SingleOrDefault()]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_40" Level="Info" Message="[&quot;SingleOrDefault: &quot;+SingleOrDefault_Output.ToString]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">0,616.8</av:Point>
+          <av:Size x:Key="ShapeSize">200,286.4</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="LINQ, Partition Operators are extremely helpful in dividing a list/collection into two parts and returns only one part of the desired items. The following are the different types of partition operators available in LINQ.&#xA;=&gt; Take&#xA;=&gt; TakeWhile&#xA;=&gt; Skip&#xA;=&gt; SkipWhile" DisplayName="LINQ Partition operators" sap:VirtualizedContainerService.HintSize="200,286.4" sap2010:WorkflowViewState.IdRef="Sequence_27">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:String[]" Name="ArrOfString" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign sap2010:Annotation.AnnotationText="Creating a Array of string" sap:VirtualizedContainerService.HintSize="496,112.8" sap2010:WorkflowViewState.IdRef="Assign_32">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:String[]">[ArrOfString]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:String[]">[{"Noida","Old Noida","Delhi","Greater Noida","Chennai","Gurugram"}]</InArgument>
+          </Assign.Value>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Assign>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="496,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Array of strings: &quot;+String.Join(&quot;,&quot;,ArrOfString.ToArray())]" />
+        <Sequence sap2010:Annotation.AnnotationText="Take operator will return a specific number of elements from the starting of a collection/List" DisplayName="Take" sap:VirtualizedContainerService.HintSize="496,127.2" sap2010:WorkflowViewState.IdRef="Sequence_34">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:String)" Name="TakeOutput" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_34">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:String)">[TakeOutput]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:String)">[ArrOfString.Take(4)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;TakeOutput: &quot;+String.Join(&quot;,&quot;,TakeOutput)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Returns elements from the first element until an element does not satisfy the condition. If the first element itself doesn't satisfy the condition then returns an empty collection.&#xA;&#xA;If the condition holds false, it will break and won't check the next item." DisplayName="TakeWhile" sap:VirtualizedContainerService.HintSize="496,418.4" sap2010:WorkflowViewState.IdRef="Sequence_30">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:String)" Name="TakeWhileOutput" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_35">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:String)">[TakeWhileOutput]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:String)">[ArrOfString.TakeWhile(Function(x) x.Contains("Noida"))]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;TakeWhileOutput: &quot;+String.Join(&quot;,&quot;,TakeWhileOutput)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Skip Operator will skip the specified number of elements from the starting of a collection/list and returns the remaining elements from the collection/list." DisplayName="Skip" sap:VirtualizedContainerService.HintSize="496,143.2" sap2010:WorkflowViewState.IdRef="Sequence_36">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:String)" Name="SkipOutput" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_36">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:String)">[SkipOutput]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:String)">[ArrOfString.Skip(3)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;SKIP output: &quot;+String.Join(&quot;,&quot;,SkipOutput)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText=" Skips elements based on a condition until an element does not satisfy the condition. If the first element itself doesn't satisfy the condition, it then skips 0 elements and returns all the elements in the sequence.&#xA;&#xA;Basically, it will return all the collection items starting from the first failed condition." DisplayName="SkipWhile" sap:VirtualizedContainerService.HintSize="496,207.2" sap2010:WorkflowViewState.IdRef="Sequence_37">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:String)" Name="SkipWhileOutput" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_37">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:String)">[SkipWhileOutput]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:String)">[ArrOfString.SkipWhile(Function(x) x.Contains("Noida"))]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;SkipWhileOutput: &quot;+String.Join(&quot;,&quot;,SkipWhileOutput)]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">0,324.4</av:Point>
+          <av:Size x:Key="ShapeSize">200,270.4</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="LINQ Sorting Operators are extremely helpful to alter the order of the data (mostly either ascending or descending) based on one or more fields&#xA;=&gt; ORDER BY&#xA;=&gt; ORDER BY DESCENDING&#xA;=&gt; THEN BY&#xA;=&gt; THEN BY DESCENDING&#xA;=&gt; REVERSE" DisplayName="LINQ Sorting Operators" sap:VirtualizedContainerService.HintSize="200,270.4" sap2010:WorkflowViewState.IdRef="Sequence_43">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:Int32[]" Name="ArrayOfInteger" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign sap:VirtualizedContainerService.HintSize="496,81.6" sap2010:WorkflowViewState.IdRef="Assign_45">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:Int32[]">[ArrayOfInteger]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:Int32[]">[{8,3,4,6,2,1,9,5,7}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="496,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Info" Message="[&quot;Integer Array: &quot;+String.Join(&quot;,&quot;,ArrayOfInteger)]" />
+        <Sequence sap2010:Annotation.AnnotationText="To sort the values of a list/Collection in ascending order." DisplayName="OrderBy" sap:VirtualizedContainerService.HintSize="496,114.4" sap2010:WorkflowViewState.IdRef="Sequence_44">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="OrderBy_Output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_46">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[OrderBy_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOfInteger.OrderBy(Function(x) x)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Info" Message="[&quot;OrderBy(Ascending): &quot;+String.Join(&quot;,&quot;,OrderBy_Output)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="To sort the values of a list/Collection in descending order." DisplayName="OrderByDescending" sap:VirtualizedContainerService.HintSize="496,357.6" sap2010:WorkflowViewState.IdRef="Sequence_45">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="OrderByDes_Output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_47">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[OrderByDes_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOfInteger.OrderByDescending(Function(x) x)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info" Message="[&quot;OrderByDescending: &quot;+String.Join(&quot;,&quot;,OrderByDes_Output)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="The ThenBy and ThenByDescending extension methods are used for sorting on multiple fields.&#xA;&#xA;The OrderBy() method sorts the collection in ascending order based on specified field. Use ThenBy() method after OrderBy to sort the collection on another field in ascending order. Linq will first sort the collection based on primary field which is specified by OrderBy method and then sort the resulted collection in ascending order again based on secondary field specified by ThenBy method.&#xA;&#xA;The same way, use ThenByDescending method to apply secondary sorting in descending order." DisplayName="ThenBy" sap:VirtualizedContainerService.HintSize="496,514.4" sap2010:WorkflowViewState.IdRef="Sequence_47">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="ThenBy_Output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_50">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ThenBy_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOfInteger.OrderByDescending(function(x) x).ThenBy(function(y) y)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_19" Level="Info" Message="[&quot;ThenBy: &quot;+String.Join(&quot;,&quot;,ThenBy_Output)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Reverse Operator can be useful to reverse the values of a list/Collection." DisplayName="Reverse" sap:VirtualizedContainerService.HintSize="496,357.6" sap2010:WorkflowViewState.IdRef="Sequence_46">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Reverse_Output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_48">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Reverse_Output]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[ArrayOfInteger.Reverse]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_18" Level="Info" Message="[&quot;Reverse_Output: &quot;+String.Join(&quot;,&quot;,Reverse_Output)]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">730,706.4</av:Point>
+          <av:Size x:Key="ShapeSize">200,207.2</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="Where clause can be used to specify a particular condition on the data source that we are trying to work on and fetch only the required information.&#xA;=&gt; WHERE" DisplayName="LINQ Filtering Operator" sap:VirtualizedContainerService.HintSize="200,207.2" sap2010:WorkflowViewState.IdRef="Sequence_48">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap2010:Annotation.AnnotationText="Basically filter data table using WHERE operator" DisplayName="Selecting items from DT" sap:VirtualizedContainerService.HintSize="400,114.4" sap2010:WorkflowViewState.IdRef="Sequence_49">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="sd:DataTable" Name="Input_DT" />
+            <Variable x:TypeArguments="sd:DataTable" Name="Output_DT" />
+            <Variable x:TypeArguments="x:String" Name="output_str" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:BuildDataTable DataTable="[Input_DT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="433.6,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_4" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;name&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Count&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;name&gt;Table&lt;/name&gt;&#xA;    &lt;Count&gt;2&lt;/Count&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;name&gt;Chair&lt;/name&gt;&#xA;    &lt;Count&gt;4&lt;/Count&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;name&gt;Sofa&lt;/name&gt;&#xA;    &lt;Count&gt;2&lt;/Count&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;name&gt;Picture&lt;/name&gt;&#xA;    &lt;Count&gt;1&lt;/Count&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;name&gt;Lamp&lt;/name&gt;&#xA;    &lt;Count&gt;2&lt;/Count&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;" />
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_51">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[Output_DT]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable" xml:space="preserve">[(
+From rows In Input_DT
+Where CInt(rows("Count"))=2
+Select rows
+	).CopyToDatatable]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:OutputDataTable DataTable="[Output_DT]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="433.6,80.8" sap2010:WorkflowViewState.IdRef="OutputDataTable_5" Text="[output_str]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Info" Message="[&quot;Where_FilterDT: &quot;+vbNewLine+output_str]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Basically filtering String array using WHERE operator" DisplayName="Selecting items from String Array" sap:VirtualizedContainerService.HintSize="400,114.4" sap2010:WorkflowViewState.IdRef="Sequence_50">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="s:String[]" Name="ArrOfString" />
+            <Variable x:TypeArguments="scg:IEnumerable(x:String)" Name="Where_FilterStrArray" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap2010:Annotation.AnnotationText="Creating a Array of string" sap:VirtualizedContainerService.HintSize="433.6,112.8" sap2010:WorkflowViewState.IdRef="Assign_52">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:String[]">[ArrOfString]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:String[]">[{"Noida","Old Noida","Delhi","Greater Noida","Chennai","Gurugram"}]</InArgument>
+            </Assign.Value>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_53">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:String)">[Where_FilterStrArray]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="scg:IEnumerable(x:String)">[ArrOfString.Where(Function(x) x.Contains("Noida"))]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_20" Level="Info" Message="[&quot;Where_FilterStrArray: &quot;+String.Join(&quot;,&quot;,Where_FilterStrArray)]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Basically filtering integer array using WHERE operator" DisplayName="Even numbers from array" sap:VirtualizedContainerService.HintSize="400,114.4" sap2010:WorkflowViewState.IdRef="Sequence_51">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="s:Int32[]" Name="NumArray" />
+            <Variable x:TypeArguments="s:Int32[]" Name="Array_Out" />
+            <Variable x:TypeArguments="x:Int32" Name="Num" />
+            <Variable x:TypeArguments="x:String" Name="output" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_54">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:Int32[]">[NumArray]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:Int32[]">[{1,2,3,4,5,6,7,8,9,10}]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_55">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:Int32[]">[Array_Out]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:Int32[]" xml:space="preserve">[(
+From Num In NumArray
+Where Num Mod 2=0
+Select Num
+	).ToArray]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="Info" Message="[&quot;Where_IntArrFilter: &quot;+String.Join(&quot;,&quot;,Array_Out)]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">480,608.8</av:Point>
+          <av:Size x:Key="ShapeSize">200,302.4</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="Aggregation functions are used to perform mathematical operations like Sum, Average, Count, Max, and Min on the elements of a collection.&#xA;An aggregate function returns a single value.&#xA;=&gt; SUM Function&#xA;=&gt; MIN function&#xA;=&gt; MAX function&#xA;=&gt; COUNT function&#xA;=&gt; AVERAGE function" DisplayName="LINQ Aggregate Functions" sap:VirtualizedContainerService.HintSize="200,302.4" sap2010:WorkflowViewState.IdRef="Sequence_52">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:Int32[]" Name="Int_Arr" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign sap2010:Annotation.AnnotationText="Creating array of integer" sap:VirtualizedContainerService.HintSize="433.6,112.8" sap2010:WorkflowViewState.IdRef="Assign_56">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:Int32[]">[Int_Arr]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:Int32[]">[{4,7,2,1,9,6,7,5,4,3,2,8,5}]</InArgument>
+          </Assign.Value>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Assign>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_23" Level="Info" Message="[&quot;Array Of integer: &quot;+ String.Join(&quot;,&quot;,Int_Arr)]" />
+        <ui:LogMessage sap2010:Annotation.AnnotationText="SUM function" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,124" sap2010:WorkflowViewState.IdRef="LogMessage_24" Level="Info" Message="[&quot;Array SUM: &quot;+Int_Arr.Sum().ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="MIN function" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,124" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info" Message="[&quot;Array MIN: &quot;+Int_Arr.Min().ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="MAX function" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,124" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info" Message="[&quot;Array MAX: &quot;+Int_Arr.Max().ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="Count function" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,124" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Info" Message="[&quot;Array Count: &quot;+Int_Arr.Count().ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+        <ui:LogMessage sap2010:Annotation.AnnotationText="AVERAGE function" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,124" sap2010:WorkflowViewState.IdRef="LogMessage_28" Level="Info" Message="[&quot;Array Average: &quot;+Int_Arr.Average().ToString]">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:LogMessage>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">730,350</av:Point>
+          <av:Size x:Key="ShapeSize">200,334.4</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="The grouping operators create a group of elements based on the given key. This group is contained in a special type of collection that implements an IGrouping&lt;TKey,TSource&gt; interface where TKey is a key value, on which the group has been formed and TSource is the collection of elements that matches with the grouping key value.&#xA;=&gt; GroupBy&#xA;=&gt; ToLookup" DisplayName="LINQ Grouping Operators" sap:VirtualizedContainerService.HintSize="200,334.4" sap2010:WorkflowViewState.IdRef="Sequence_55">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap2010:Annotation.AnnotationText=" The GroupBy operator returns groups of elements based on some key value. Each group is represented by IGrouping&lt;TKey, TElement&gt; object." DisplayName="GroupBy" sap:VirtualizedContainerService.HintSize="400,143.2" sap2010:WorkflowViewState.IdRef="Sequence_58">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="sd:DataTable" Name="Input_DT2" />
+            <Variable x:TypeArguments="sd:DataTable" Name="Output_DT2" />
+            <Variable x:TypeArguments="x:String" Name="output_str2" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:BuildDataTable DataTable="[Input_DT2]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="531.2,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_5" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;City&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Zip&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Berlin&lt;/City&gt;&#xA;    &lt;Zip&gt;10115&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Frankfurt&lt;/City&gt;&#xA;    &lt;Zip&gt;60306&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Stuttgart&lt;/City&gt;&#xA;    &lt;Zip&gt;70173&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Mannhein&lt;/City&gt;&#xA;    &lt;Zip&gt;68161&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Hamburg&lt;/City&gt;&#xA;    &lt;Zip&gt;20095&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Berlin&lt;/City&gt;&#xA;    &lt;Zip&gt;10243&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;City&gt;Frankfurt&lt;/City&gt;&#xA;    &lt;Zip&gt;60306&lt;/Zip&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;" />
+          <ui:OutputDataTable DataTable="[Input_DT2]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="531.2,80.8" sap2010:WorkflowViewState.IdRef="OutputDataTable_7" Text="[output_str2]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="531.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;InputDT: &quot;+vbNewLine+output_str2]" />
+          <Assign sap2010:Annotation.AnnotationText="grouping and selelcting based on single column only" sap:VirtualizedContainerService.HintSize="531.2,114.4" sap2010:WorkflowViewState.IdRef="Assign_57">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[Output_DT2]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable" xml:space="preserve">[(
+From row In Input_DT2
+Group row By a=row("City") Into grp=Group
+Select grp.first
+	).CopyToDatatable]</InArgument>
+            </Assign.Value>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Assign>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="531.2,304.8" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,226.4" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap2010:Annotation.AnnotationText="grouping and selelcting based on multiple columns." sap:VirtualizedContainerService.HintSize="433.6,114.4" sap2010:WorkflowViewState.IdRef="Assign_58">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="sd:DataTable">[Output_DT2]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="sd:DataTable" xml:space="preserve">[(
+From row In Input_DT2
+Group row By a=row("City"), b=row(1) Into grp=Group
+Select grp.first
+	).CopyToDatatable]</InArgument>
+                  </Assign.Value>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Assign>
+              </Sequence>
+            </ui:CommentOut.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:CommentOut>
+          <ui:OutputDataTable DataTable="[Output_DT2]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="531.2,80.8" sap2010:WorkflowViewState.IdRef="OutputDataTable_6" Text="[output_str2]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="531.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_30" Level="Info" Message="[&quot;GroupBy_Output: &quot;+vbNewLine+output_str2]" />
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="ToLookup is the same as GroupBy; the only difference is the execution of GroupBy is deferred whereas ToLookup execution is immediate." DisplayName="ToLookup" sap:VirtualizedContainerService.HintSize="400,164.8" sap2010:WorkflowViewState.IdRef="Sequence_59">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">240,342.4</av:Point>
+          <av:Size x:Key="ShapeSize">200,255.2</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="*) Removing duplicates from the data table.&#xD;&#xA;*) Getting the first row of every duplicate row in the data table.&#xA;(Only duplicates)&#xD;&#xA;*) LET statement is used to define new variables inside the code to perform some calculations." DisplayName="LINQ: Important codes" sap:VirtualizedContainerService.HintSize="200,255.2" sap2010:WorkflowViewState.IdRef="Sequence_66">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap2010:Annotation.AnnotationText="Removing duplicates from data table based on multiple columns.&#xA;(Unique rows. including the first of every duplicate)" DisplayName="Removing duplicates from datatable" sap:VirtualizedContainerService.HintSize="400,127.2" sap2010:WorkflowViewState.IdRef="Sequence_67">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="sd:DataTable" Name="InputDT" />
+            <Variable x:TypeArguments="sd:DataTable" Name="UniqueRow_DT" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ReadRange AddHeaders="True" DataTable="[InputDT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="433.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="Sheet1" WorkbookPath="Test_DT.xlsx">
+            <ui:ReadRange.Range>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ui:ReadRange.Range>
+          </ui:ReadRange>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_61">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[UniqueRow_DT]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable" xml:space="preserve">[(
+From row In InputDT
+Group row By a = row("ID").ToString, b = row("Name").ToString Into grp = Group
+Select grp.first
+).copytodatatable]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:WriteRange AddHeaders="True" DataTable="[UniqueRow_DT]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="433.6,116" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="Unique Rows" WorkbookPath="Test_DT.xlsx">
+            <ui:WriteRange.StartingCell>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ui:WriteRange.StartingCell>
+          </ui:WriteRange>
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="Getting the first row of every duplicate rows indata tablee.&#xA;(Only duplicates)" DisplayName="Getting duplicate rows only from data table" sap:VirtualizedContainerService.HintSize="400,127.2" sap2010:WorkflowViewState.IdRef="Sequence_68">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="sd:DataTable" Name="InputDT" />
+            <Variable x:TypeArguments="sd:DataTable" Name="DuplicateRow_DT" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ReadRange AddHeaders="True" DataTable="[InputDT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="433.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_4" SheetName="Sheet1" WorkbookPath="Test_DT.xlsx">
+            <ui:ReadRange.Range>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ui:ReadRange.Range>
+          </ui:ReadRange>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_62">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[DuplicateRow_DT]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable" xml:space="preserve">[(
+From row In InputDT
+Group row By a = row("ID").ToString, b = row("Name").ToString Into grp = Group
+Where grp.count=1
+Select grp.first
+).copytodatatable]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:WriteRange AddHeaders="True" DataTable="[DuplicateRow_DT]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="433.6,116" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="Duplicate Rows" WorkbookPath="Test_DT.xlsx">
+            <ui:WriteRange.StartingCell>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ui:WriteRange.StartingCell>
+          </ui:WriteRange>
+        </Sequence>
+        <Sequence sap2010:Annotation.AnnotationText="LET statement is used to define new variables inside the code to perform some calculations." DisplayName="Let function" sap:VirtualizedContainerService.HintSize="400,127.2" sap2010:WorkflowViewState.IdRef="Sequence_69">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="s:Int32[]" Name="Int_Arr" />
+            <Variable x:TypeArguments="scg:IEnumerable(x:Int32)" Name="Enum_Int" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_63">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:Int32[]">[Int_Arr]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:Int32[]">[{4,2,6,8}]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="Assign_64">
+            <Assign.To>
+              <OutArgument x:TypeArguments="scg:IEnumerable(x:Int32)">[Enum_Int]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:Int32[]" xml:space="preserve">[(
+From item In Int_Arr
+Let a=item*2
+Select a
+).ToArray]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_42" Level="Info" Message="[&quot;LET_Output: &quot;+String.Join(&quot;,&quot;,Enum_Int)]" />
+        </Sequence>
+      </Sequence>
+    </FlowStep>
+  </Flowchart>
+</Activity>

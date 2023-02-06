@@ -1,0 +1,31 @@
+First
+FirstOrDefault
+Last
+LastOrDefault
+ElementAt
+ElementAtOrDefault
+Single
+SingleOrDefault
+
+DISTINCT
+UNION
+INTERSECT
+EXCEPT
+
+ORDER BY
+ORDER BY DESCENDING
+THEN BY
+THEN BY DESCENDING
+REVERSE
+
+WHERE
+
+LINQ SUM Function
+LINQ MIN function
+LINQ MAX function
+LINQ COUNT function
+LINQ AVERAGE function
+LINQ AGGREGATE function
+
+LAMBDA
+
